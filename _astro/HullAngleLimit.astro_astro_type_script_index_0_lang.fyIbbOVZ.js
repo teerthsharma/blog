@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/HullAngleLimit.fig.BYk-TGkJ.js","_astro/_lib.BO97LShr.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/voronoi.math.DORE9k6I.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`resolvent/hull-angle-limit`,()=>e(()=>import(`./HullAngleLimit.fig.BYk-TGkJ.js`),__vite__mapDeps([0,1,2,3,4])));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/FiltrationFrames.fig.DR6uxWED.js","_astro/three.module.DvRed51q.js","_astro/figure-runtime.CByImCzf.js","_astro/figure-kit.DMPrrawy.js","_astro/_lib.CHi3VaTu.js","_astro/_draw.B9-IemCG.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`topological-ml-toolkit/filtration-frames`,()=>e(()=>import(`./FiltrationFrames.fig.DR6uxWED.js`),__vite__mapDeps([0,1,2,3,4,5])));

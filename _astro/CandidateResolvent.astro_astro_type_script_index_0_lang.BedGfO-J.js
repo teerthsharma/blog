@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/CandidateResolvent.fig.TpX8xeO2.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/_lib.BO97LShr.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`resolvent/candidate-resolvent`,()=>e(()=>import(`./CandidateResolvent.fig.TpX8xeO2.js`),__vite__mapDeps([0,1,2,3])));

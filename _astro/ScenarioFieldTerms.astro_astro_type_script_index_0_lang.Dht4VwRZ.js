@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ScenarioFieldTerms.fig.22Clh9Cs.js","_astro/_lib.DDjHcpcc.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`em-field-simulator/scenario-terms`,()=>e(()=>import(`./ScenarioFieldTerms.fig.22Clh9Cs.js`),__vite__mapDeps([0,1,2,3])));

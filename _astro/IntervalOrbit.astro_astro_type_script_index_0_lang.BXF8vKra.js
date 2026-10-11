@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/IntervalOrbit.fig.CCS5hkgn.js","_astro/_corpus.D3fsi2sl.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`tangle/interval-orbit`,()=>e(()=>import(`./IntervalOrbit.fig.CCS5hkgn.js`),__vite__mapDeps([0,1,2,3])));

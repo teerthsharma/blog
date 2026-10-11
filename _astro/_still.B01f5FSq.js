@@ -1,0 +1,1 @@
+function e(e,t,n,r=[0,0,0]){let i=t*Math.PI/180,a=n*Math.PI/180;return[r[0]+e*Math.sin(a)*Math.sin(i),r[1]+e*Math.cos(a),r[2]+e*Math.sin(a)*Math.cos(i)]}export{e as t};

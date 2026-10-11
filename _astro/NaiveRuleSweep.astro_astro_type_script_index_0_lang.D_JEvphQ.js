@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/NaiveRuleSweep.fig.Ch2KYaoX.js","_astro/_math.Ds1VaATG.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`separatrix/naive-rule-sweep`,()=>e(()=>import(`./NaiveRuleSweep.fig.Ch2KYaoX.js`),__vite__mapDeps([0,1])));

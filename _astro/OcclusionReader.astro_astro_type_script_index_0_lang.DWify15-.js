@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/OcclusionReader.fig.9BJ4h4NE.js","_astro/_lib.dpWAXpuh.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/_occlusion.BOlbh0Rk.js","_astro/OcclusionSweep.fig.anjSWAmH.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`tangle/occlusion-reader`,()=>e(()=>import(`./OcclusionReader.fig.9BJ4h4NE.js`),__vite__mapDeps([0,1,2,3,4]))),t(`tangle/occlusion-sweep`,()=>e(()=>import(`./OcclusionSweep.fig.anjSWAmH.js`),__vite__mapDeps([5,2,3,1,4])));

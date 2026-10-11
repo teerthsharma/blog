@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/GaussIntegrand.fig.DOgYzWux.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/linking-math.DWNXLom9.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`kitchen-sink/gauss-integrand`,()=>e(()=>import(`./GaussIntegrand.fig.DOgYzWux.js`),__vite__mapDeps([0,1,2,3])));

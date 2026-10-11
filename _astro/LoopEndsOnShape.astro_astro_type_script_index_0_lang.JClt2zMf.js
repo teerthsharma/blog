@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/LoopEndsOnShape.fig.B7YHglqX.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/_lib.CAxoqu8l.js","_astro/_ui.DVyBd8VJ.js","_astro/_loop.BX2BXctO.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`aether-lang/loop-ends-on-shape`,()=>e(()=>import(`./LoopEndsOnShape.fig.B7YHglqX.js`),__vite__mapDeps([0,1,2,3,4,5])));

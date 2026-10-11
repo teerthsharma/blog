@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/DeterminantBlindSpot.fig.DEi0-uc2.js","_astro/_maps.45DYMquN.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`monodromy/determinant-blind-spot`,()=>e(()=>import(`./DeterminantBlindSpot.fig.DEi0-uc2.js`),__vite__mapDeps([0,1,2,3])));

@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/BettiBand.fig.BMoeZyVz.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js","_astro/_lib.6bPeqgqf.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`epsilon-hollow/betti-band`,()=>e(()=>import(`./BettiBand.fig.BMoeZyVz.js`),__vite__mapDeps([0,1,2,3])));

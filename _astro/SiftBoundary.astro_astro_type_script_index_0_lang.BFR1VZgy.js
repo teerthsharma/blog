@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/SiftBoundary.fig.BisdS-hY.js","_astro/_math.Ds1VaATG.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`separatrix/sift-boundary`,()=>e(()=>import(`./SiftBoundary.fig.BisdS-hY.js`),__vite__mapDeps([0,1])));

@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ProveOrRefuse.fig.DwGdL_Tf.js","_astro/_ui.BP8JStkC.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`aether-lang/prove-or-refuse`,()=>e(()=>import(`./ProveOrRefuse.fig.DwGdL_Tf.js`),__vite__mapDeps([0,1])));

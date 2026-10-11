@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/FaradayTensorBuilder.fig.CC8HFf56.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/_lib.DDjHcpcc.js","_astro/_still.B01f5FSq.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`em-field-simulator/faraday-tensor`,()=>e(()=>import(`./FaradayTensorBuilder.fig.CC8HFf56.js`),__vite__mapDeps([0,1,2,3,4])));

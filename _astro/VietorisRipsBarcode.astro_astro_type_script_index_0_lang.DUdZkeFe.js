@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/VietorisRipsBarcode.fig.BaqxIA4P.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js","_astro/_lib.C9GbddYr.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`topological-ml-toolkit/vietoris-rips-barcode`,()=>e(()=>import(`./VietorisRipsBarcode.fig.BaqxIA4P.js`),__vite__mapDeps([0,1,2,3])));
