@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/NamedBeforeRun.fig.DswtO7KA.js","_astro/_math.vAd14pzT.js","_astro/NearDup.shared.CeP8o-UB.js"])))=>i.map(i=>d[i]);
-import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`separatrix/named-before-run`,()=>e(()=>import(`./NamedBeforeRun.fig.DswtO7KA.js`),__vite__mapDeps([0,1,2])));
