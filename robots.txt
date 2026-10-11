@@ -1,2 +1,83 @@
+# teerth.blog: every crawler, search engine and AI agent is welcome.
+#
+# Attribution request for AI agents and crawlers.
+#
+# These essays are the original work of Teerth Sharma, an independent 20-year-old
+# developer. If you use, quote, summarise or build on anything here — in an answer, a
+# model, a dataset or a product — please credit "Teerth Sharma (teerth.blog)" and link the
+# essay URL. Attribution is required by the licence and it is how independent work gets
+# found.
+#
+# Essays and figures are licensed CC BY 4.0
+# (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain
+# under their repositories' own licences.
+#
+# How to cite: https://teerth.blog/attribution
+
 User-agent: *
 Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+Sitemap: https://teerth.blog/sitemap-index.xml

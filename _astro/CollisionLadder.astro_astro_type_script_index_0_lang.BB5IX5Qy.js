@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/CollisionLadder.fig.B9zRBjOa.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js","_astro/_lib.Cfpif1Xb.js","_astro/BufferGeometryUtils.CYxAnd18.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`nerve/collision-ladder`,()=>e(()=>import(`./CollisionLadder.fig.B9zRBjOa.js`),__vite__mapDeps([0,1,2,3,4])));

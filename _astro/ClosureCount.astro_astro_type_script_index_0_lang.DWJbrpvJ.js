@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ClosureCount.fig.Bn73qdk1.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`nerve/closure-count`,()=>e(()=>import(`./ClosureCount.fig.Bn73qdk1.js`),__vite__mapDeps([0,1,2])));

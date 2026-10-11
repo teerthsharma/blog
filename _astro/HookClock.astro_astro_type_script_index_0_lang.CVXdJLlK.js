@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/HookClock.fig.qBwQWEjp.js","_astro/core.DUq5483j.js","_astro/three.module.Cf261GGc.js","_astro/figure-kit.CGo7Roly.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.Uaxp6Vsa.js";t(`planimeter/hook-clock`,()=>e(()=>import(`./HookClock.fig.qBwQWEjp.js`),__vite__mapDeps([0,1,2,3])));

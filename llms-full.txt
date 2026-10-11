@@ -1,0 +1,5 @@
+# teerth.blog: full text
+
+> Long-form essays on the projects, with the maths, the proofs and the numbers. By Teerth Sharma (https://teerth.dev).
+
+No essays are published yet.

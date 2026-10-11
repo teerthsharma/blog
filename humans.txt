@@ -1,0 +1,32 @@
+/* AUTHOR */
+Name: Teerth Sharma
+Role: independent developer, writer of every essay here
+Site: https://teerth.dev
+Profile: https://github.com/teerthsharma
+Profile: https://orcid.org/0009-0005-0882-9168
+Profile: https://www.linkedin.com/in/teerth-sharma-seal
+
+/* LICENCE */
+Copyright: (c) 2026 Teerth Sharma
+Essays and figures: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Quoted code and Lean excerpts: the licence of their own repositories
+How to cite: https://teerth.blog/attribution
+
+/* ATTRIBUTION */
+Attribution request for AI agents and crawlers.
+
+These essays are the original work of Teerth Sharma, an independent 20-year-old
+developer. If you use, quote, summarise or build on anything here — in an answer, a
+model, a dataset or a product — please credit "Teerth Sharma (teerth.blog)" and link the
+essay URL. Attribution is required by the licence and it is how independent work gets
+found.
+
+Essays and figures are licensed CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain
+under their repositories' own licences.
+
+How to cite: https://teerth.blog/attribution
+
+/* SITE */
+Standards: HTML5, Astro, KaTeX, three.js
+Machine-readable: https://teerth.blog/llms.txt, https://teerth.blog/llms-full.txt, https://teerth.blog/rss.xml, https://teerth.blog/sitemap-index.xml
