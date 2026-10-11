@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/TangleThumb.fig.BO0jpIw9.js","_astro/_certify.BUviCDZb.js","_astro/_lib.aE7vdSw2.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`tangle/tangle-thumb`,()=>e(()=>import(`./TangleThumb.fig.BO0jpIw9.js`),__vite__mapDeps([0,1,2,3,4])));

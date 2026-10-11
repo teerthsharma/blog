@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/SixChecks.fig.D8JLY0ue.js","_astro/three.module.CHqds8NI.js","_astro/_lib.jLQ6M0k7.js","_astro/figure-kit.BXvpgctX.js","_astro/core.D9XupG6n.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`planimeter/six-checks`,()=>e(()=>import(`./SixChecks.fig.D8JLY0ue.js`),__vite__mapDeps([0,1,2,3,4])));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ColumnReduction.fig.B5Ninf3w.js","_astro/_ui.C6VoOYbF.js","_astro/_lib.CAxoqu8l.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`aether-lang/column-reduction`,()=>e(()=>import(`./ColumnReduction.fig.B5Ninf3w.js`),__vite__mapDeps([0,1,2])));

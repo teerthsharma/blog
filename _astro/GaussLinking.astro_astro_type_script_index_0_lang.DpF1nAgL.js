@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/GaussLinking.fig.Cp0M8cLA.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_ui.C6VoOYbF.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`aether-lang/gauss-linking`,()=>e(()=>import(`./GaussLinking.fig.Cp0M8cLA.js`),__vite__mapDeps([0,1,2,3])));

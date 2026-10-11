@@ -1,0 +1,1 @@
+import{t as e}from"./preload-helper.DHhhL8Zf.js";var t=document.querySelector(`[data-ledger]`);t&&e(()=>import(`./ClaimLedger.fig.AvdBB6MY.js`).then(e=>e.mount(t)),[]);

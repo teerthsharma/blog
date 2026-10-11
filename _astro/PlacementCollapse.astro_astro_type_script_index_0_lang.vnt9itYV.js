@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/PlacementCollapse.fig.NgiMvAbd.js","_astro/figure-kit.CXnRuxQL.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/three.module.CbYOIaMy.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`aether-lang/placement-collapse`,()=>e(()=>import(`./PlacementCollapse.fig.NgiMvAbd.js`),__vite__mapDeps([0,1,2,3])));

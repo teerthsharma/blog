@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/SparseAttentionGate.fig.DysTTD-y.js","_astro/ph.CeKWSZYy.js","_astro/rolldown-runtime.DK3Fl9T5.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";e(()=>import(`./SparseAttentionGate.fig.DysTTD-y.js`).then(e=>e.mount(document.querySelector(`[data-sag]`))),__vite__mapDeps([0,1,2]));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/RefusalWall.fig.BplQ_sAq.js","_astro/_draw.gF6xjWrM.js","_astro/three.module.CbYOIaMy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/figure-kit.CXnRuxQL.js","_astro/_lib.CiMX_Iux.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`tangle/refusal-wall`,()=>e(()=>import(`./RefusalWall.fig.BplQ_sAq.js`),__vite__mapDeps([0,1,2,3,4,5])));

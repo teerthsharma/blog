@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ReductionTrace.fig.DARbDPGu.js","_astro/ph.CeKWSZYy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/_draw.DlUvacHC.js","_astro/_lib.uLlICNJD.js","_astro/three.module.CbYOIaMy.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`topological-ml-toolkit/reduction-trace`,()=>e(()=>import(`./ReductionTrace.fig.DARbDPGu.js`),__vite__mapDeps([0,1,2,3,4,5])));

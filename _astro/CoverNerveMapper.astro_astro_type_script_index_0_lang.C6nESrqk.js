@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/CoverNerveMapper.fig.DdC7eNtK.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_lib.B3fpKvFf.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`topological-ml-toolkit/cover-nerve-mapper`,()=>e(()=>import(`./CoverNerveMapper.fig.DdC7eNtK.js`),__vite__mapDeps([0,1,2,3])));

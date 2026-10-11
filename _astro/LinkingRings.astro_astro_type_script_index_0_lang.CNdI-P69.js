@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/LinkingRings.fig.BcmM9muw.js","_astro/figure-kit.BXvpgctX.js","_astro/three.module.CHqds8NI.js","_astro/linking-math.DWNXLom9.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`kitchen-sink/linking-rings`,()=>e(()=>import(`./LinkingRings.fig.BcmM9muw.js`),__vite__mapDeps([0,1,2,3])));

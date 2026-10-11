@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/PoolingCeiling.fig.CKZx2QDn.js","_astro/_lib.DwpYSNLS.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`caustic/pooling-ceiling`,()=>e(()=>import(`./PoolingCeiling.fig.CKZx2QDn.js`),__vite__mapDeps([0,1,2,3])));

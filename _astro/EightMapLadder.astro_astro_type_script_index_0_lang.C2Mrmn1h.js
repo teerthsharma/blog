@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/EightMapLadder.fig.Ce6xdHe5.js","_astro/_lib.DcLdCnPr.js","_astro/three.module.CbYOIaMy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/figure-kit.CXnRuxQL.js","_astro/_maps.B_AVWrEa.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`monodromy/eight-map-ladder`,()=>e(()=>import(`./EightMapLadder.fig.Ce6xdHe5.js`),__vite__mapDeps([0,1,2,3,4,5])));

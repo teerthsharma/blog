@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/StabilityBand.fig.DAfh8ocf.js","_astro/_ui.C6VoOYbF.js","_astro/_lib.CAxoqu8l.js","_astro/_loop.BX2BXctO.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`aether-lang/stability-band`,()=>e(()=>import(`./StabilityBand.fig.DAfh8ocf.js`),__vite__mapDeps([0,1,2,3])));

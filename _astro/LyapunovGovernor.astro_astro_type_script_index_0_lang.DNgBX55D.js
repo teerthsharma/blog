@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/LyapunovGovernor.fig.C23CAP8s.js","_astro/three.module.CHqds8NI.js","_astro/_lib.DqCAjz8I.js","_astro/figure-kit.BXvpgctX.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`sigmoid/lyapunov-governor`,()=>e(()=>import(`./LyapunovGovernor.fig.C23CAP8s.js`),__vite__mapDeps([0,1,2,3])));

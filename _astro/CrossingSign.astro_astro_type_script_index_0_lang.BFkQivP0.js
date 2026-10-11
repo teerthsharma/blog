@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/CrossingSign.fig.BwVd4AM0.js","_astro/three.module.CHqds8NI.js","_astro/_certify.BUviCDZb.js","_astro/figure-kit.BXvpgctX.js","_astro/_lib.aE7vdSw2.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`tangle/crossing-sign`,()=>e(()=>import(`./CrossingSign.fig.BwVd4AM0.js`),__vite__mapDeps([0,1,2,3,4])));

@@ -1,0 +1,1 @@
+import{t as e}from"./_silview.ItrGjzMy.js";var t=t=>e(t,`right`);export{t as create};

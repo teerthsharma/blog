@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/EulerCount.fig.DkwDSQvR.js","_astro/three.module.CbYOIaMy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/figure-kit.CXnRuxQL.js","_astro/_lib.HlLNZVDA.js","_astro/core.D9XupG6n.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`planimeter/euler-count`,()=>e(()=>import(`./EulerCount.fig.DkwDSQvR.js`),__vite__mapDeps([0,1,2,3,4,5])));

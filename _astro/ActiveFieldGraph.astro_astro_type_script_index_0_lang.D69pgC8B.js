@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ActiveFieldGraph.fig.B3-T_2lB.js","_astro/three.module.CbYOIaMy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/figure-kit.CXnRuxQL.js","_astro/_scenarios.Dr5H678K.js","_astro/_lib.DXEwRMr-.js","_astro/_still.B01f5FSq.js","_astro/_ScenarioMesh.BI0xGHdu.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`em-field-simulator/active-field-graph`,()=>e(()=>import(`./ActiveFieldGraph.fig.B3-T_2lB.js`),__vite__mapDeps([0,1,2,3,4,5,6,7])));
