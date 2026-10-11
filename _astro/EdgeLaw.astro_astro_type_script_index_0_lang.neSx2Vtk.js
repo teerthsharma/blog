@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/EdgeLaw.fig.DxvUxYbd.js","_astro/three.module.DvRed51q.js","_astro/_lib.BO97LShr.js","_astro/figure-kit.DMPrrawy.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`resolvent/edge-law`,()=>e(()=>import(`./EdgeLaw.fig.DxvUxYbd.js`),__vite__mapDeps([0,1,2,3])));

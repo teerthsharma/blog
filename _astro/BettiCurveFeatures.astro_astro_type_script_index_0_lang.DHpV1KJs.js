@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/BettiCurveFeatures.fig.m9hty4g8.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_lib.B3fpKvFf.js","_astro/_draw.B9-IemCG.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`topological-ml-toolkit/betti-curve-features`,()=>e(()=>import(`./BettiCurveFeatures.fig.m9hty4g8.js`),__vite__mapDeps([0,1,2,3,4])));

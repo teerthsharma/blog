@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/NearMiss.fig.BFMxN1yy.js","_astro/three.module.CHqds8NI.js","_astro/_lib.jLQ6M0k7.js","_astro/figure-kit.BXvpgctX.js","_astro/core.D9XupG6n.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`planimeter/near-miss`,()=>e(()=>import(`./NearMiss.fig.BFMxN1yy.js`),__vite__mapDeps([0,1,2,3,4])));

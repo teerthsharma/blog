@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/SameTokensTwoRegimes.fig.C5hwTVjT.js","_astro/_lib.DBbxQLC_.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`caustic/same-tokens-two-regimes`,()=>e(()=>import(`./SameTokensTwoRegimes.fig.C5hwTVjT.js`),__vite__mapDeps([0,1,2,3])));

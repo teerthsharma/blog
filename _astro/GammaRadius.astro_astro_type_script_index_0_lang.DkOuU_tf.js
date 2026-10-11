@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/GammaRadius.fig.DqsjDpGk.js","_astro/_math.DnEzbAhi.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`separatrix/gamma-radius`,()=>e(()=>import(`./GammaRadius.fig.DqsjDpGk.js`),__vite__mapDeps([0,1])));

@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ThreeWaysToEnd.fig.tIhdU5-7.js","_astro/_lib.CAxoqu8l.js","_astro/_ui.DVyBd8VJ.js","_astro/_loop.BX2BXctO.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`aether-lang/three-ways-to-end`,()=>e(()=>import(`./ThreeWaysToEnd.fig.tIhdU5-7.js`),__vite__mapDeps([0,1,2,3])));

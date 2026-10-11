@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/CoinFlipDuel.fig.gtKN2gd6.js","_astro/_lib.aE7vdSw2.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_corpus.weyAqr4j.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`tangle/coin-flip-duel`,()=>e(()=>import(`./CoinFlipDuel.fig.gtKN2gd6.js`),__vite__mapDeps([0,1,2,3,4])));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ReductionTrace.fig.CYeFJQhK.js","_astro/_lib.B3fpKvFf.js","_astro/three.module.CHqds8NI.js","_astro/_draw.B9-IemCG.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`topological-ml-toolkit/reduction-trace`,()=>e(()=>import(`./ReductionTrace.fig.CYeFJQhK.js`),__vite__mapDeps([0,1,2,3])));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/PowerIteration.fig.R57B2KWz.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_lib.C-vpxAGp.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`faraday/power-iteration`,()=>e(()=>import(`./PowerIteration.fig.R57B2KWz.js`),__vite__mapDeps([0,1,2,3])));

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ReadYourLossCurve.fig.CcIv3WC8.js","_astro/three.module.CHqds8NI.js","_astro/figure-kit.BXvpgctX.js","_astro/_lib.BUQPhil_.js","_astro/_stratum.C33ezZ8N.js"])))=>i.map(i=>d[i]);
+import{n as e,t}from"./figure-runtime.CHHj5QN0.js";t(`epsilon-hollow/read-your-loss-curve`,()=>e(()=>import(`./ReadYourLossCurve.fig.CcIv3WC8.js`),__vite__mapDeps([0,1,2,3,4])));

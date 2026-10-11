@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/StochasticResolvent.fig.DMapKqSW.js","_astro/three.module.DvRed51q.js","_astro/figure-kit.DMPrrawy.js","_astro/_lib.BO97LShr.js"])))=>i.map(i=>d[i]);
-import{n as e,t}from"./figure-runtime.CByImCzf.js";t(`resolvent/stochastic-resolvent`,()=>e(()=>import(`./StochasticResolvent.fig.DMapKqSW.js`),__vite__mapDeps([0,1,2,3])));
