@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/aether-lang
 - Repository: https://github.com/teerthsharma/Aether-Lang
-- Project site: https://teerth.dev/Aether-Lang/
+- Project site: https://blog.teerth.dev/aether-lang/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Aether-Lang", 2026, https://teerth.blog/aether-lang
@@ -470,7 +470,7 @@ falls from 38.3% at sequence 128 to 5.6% at 512, and goes to −109% at top-$k$ 
 
 [View the project](https://github.com/teerthsharma/Aether-Lang) · [Source on GitHub](https://github.com/teerthsharma/Aether-Lang)
 
-- The project site, with every theorem and algorithm drawn: [teerth.dev/Aether-Lang](https://teerth.dev/Aether-Lang/). Short link: [teerth.dev/aether-lang](https://teerth.dev/aether-lang).
+- The project site, with every theorem and algorithm drawn: [teerth.dev/Aether-Lang](https://blog.teerth.dev/aether-lang/). Short link: [teerth.dev/aether-lang](https://teerth.dev/aether-lang).
 - The repository: [github.com/teerthsharma/Aether-Lang](https://github.com/teerthsharma/Aether-Lang), read at commit [`6d8d004`](https://github.com/teerthsharma/Aether-Lang/tree/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50).
 - [README.md](https://github.com/teerthsharma/Aether-Lang/blob/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50/README.md): the tour program and the three loop forms.
 - [PAPER.md](https://github.com/teerthsharma/Aether-Lang/blob/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50/PAPER.md): the technical account, with 29 numbered results, the evaluation, "What we got wrong" and the limits.

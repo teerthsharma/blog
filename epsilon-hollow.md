@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/epsilon-hollow
 - Repository: https://github.com/teerthsharma/Epsilon-Hollow
-- Project site: https://teerth.dev/Epsilon-Hollow/
+- Project site: https://blog.teerth.dev/epsilon-hollow/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Epsilon-Hollow", 2026, https://teerth.blog/epsilon-hollow
@@ -527,7 +527,7 @@ These are stated as the repo states them, and where the code at `36b1400` has mo
 
 [View the project](https://github.com/teerthsharma/Epsilon-Hollow) · [Source on GitHub](https://github.com/teerthsharma/Epsilon-Hollow)
 
-The project page at [teerth.dev/Epsilon-Hollow](https://teerth.dev/Epsilon-Hollow/) draws the results live. The source is [github.com/teerthsharma/Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow), and the short link is [teerth.dev/epsilon-hollow](https://teerth.dev/epsilon-hollow). Key files at commit `36b1400`:
+The project page at [teerth.dev/Epsilon-Hollow](https://blog.teerth.dev/epsilon-hollow/) draws the results live. The source is [github.com/teerthsharma/Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow), and the short link is [teerth.dev/epsilon-hollow](https://teerth.dev/epsilon-hollow). Key files at commit `36b1400`:
 
 - [README.md](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/README.md): the idea and the four pillars.
 - [docs/RESULTS.md](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/docs/RESULTS.md): every number with its provenance, equations (1) to (9), the Limits list.

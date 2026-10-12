@@ -13,7 +13,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/resolvent
 - Repository: https://github.com/teerthsharma/resolvent
-- Project site: https://teerth.dev/resolvent/
+- Project site: https://blog.teerth.dev/resolvent/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "resolvent", 2026, https://teerth.blog/resolvent
@@ -417,7 +417,7 @@ with closable defined as one minus the distance arm's NS and the edge as $\mathr
 [View the project](https://github.com/teerthsharma/resolvent) · [Source on GitHub](https://github.com/teerthsharma/resolvent)
 
 - The repository: [github.com/teerthsharma/resolvent](https://github.com/teerthsharma/resolvent), read at commit `3b1b7c1f52b848b81e97f01317cb397c624cf16c`.
-- The project site: [teerth.dev/resolvent](https://teerth.dev/resolvent/). The site's pages still tell the CEQ family's story; they are regrouped, not rewritten.
+- The project site: [teerth.dev/resolvent](https://blog.teerth.dev/resolvent/). The site's pages still tell the CEQ family's story; they are regrouped, not rewritten.
 - The [README](https://github.com/teerthsharma/resolvent/blob/3b1b7c1f52b848b81e97f01317cb397c624cf16c/README.md), including the "What we got wrong" table and the limits.
 - The library: [`resolvent/`](https://github.com/teerthsharma/resolvent/tree/3b1b7c1f52b848b81e97f01317cb397c624cf16c/resolvent), with `resolvent.py`, `heads.py`, `djepa.py` and the three beds.
 - The Lean proofs: [`lean/CEQ/`](https://github.com/teerthsharma/resolvent/tree/3b1b7c1f52b848b81e97f01317cb397c624cf16c/lean/CEQ), in particular `Occupancy.lean`, `Nilpotent.lean`, `Contraction.lean` and `OracleSeparation.lean`.
@@ -812,7 +812,7 @@ Related essays on this blog: [Aether-Lang](/aether-lang), where the topology-der
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/caustic
 - Repository: https://github.com/teerthsharma/caustic
-- Project site: https://teerth.dev/caustic/
+- Project site: https://blog.teerth.dev/caustic/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "caustic", 2026, https://teerth.blog/caustic
@@ -1129,9 +1129,9 @@ The certificate is one-sided, the detector detects collapse, and almost every me
 
 ## Read more
 
-[View the project](https://teerth.dev/caustic/) · [Source on GitHub](https://github.com/teerthsharma/caustic)
+[View the project](https://blog.teerth.dev/caustic/) · [Source on GitHub](https://github.com/teerthsharma/caustic)
 
-The project site is [teerth.dev/caustic](https://teerth.dev/caustic/) and the source is [github.com/teerthsharma/caustic](https://github.com/teerthsharma/caustic). Every line reference in this essay is at commit [`6fed3df`](https://github.com/teerthsharma/caustic/tree/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2).
+The project site is [teerth.dev/caustic](https://blog.teerth.dev/caustic/) and the source is [github.com/teerthsharma/caustic](https://github.com/teerthsharma/caustic). Every line reference in this essay is at commit [`6fed3df`](https://github.com/teerthsharma/caustic/tree/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2).
 
 Key files:
 
@@ -2494,7 +2494,7 @@ The repo withdraws its own claims in the same voice it uses for the results:
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/epsilon-hollow
 - Repository: https://github.com/teerthsharma/Epsilon-Hollow
-- Project site: https://teerth.dev/Epsilon-Hollow/
+- Project site: https://blog.teerth.dev/epsilon-hollow/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Epsilon-Hollow", 2026, https://teerth.blog/epsilon-hollow
@@ -3012,7 +3012,7 @@ These are stated as the repo states them, and where the code at `36b1400` has mo
 
 [View the project](https://github.com/teerthsharma/Epsilon-Hollow) · [Source on GitHub](https://github.com/teerthsharma/Epsilon-Hollow)
 
-The project page at [teerth.dev/Epsilon-Hollow](https://teerth.dev/Epsilon-Hollow/) draws the results live. The source is [github.com/teerthsharma/Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow), and the short link is [teerth.dev/epsilon-hollow](https://teerth.dev/epsilon-hollow). Key files at commit `36b1400`:
+The project page at [teerth.dev/Epsilon-Hollow](https://blog.teerth.dev/epsilon-hollow/) draws the results live. The source is [github.com/teerthsharma/Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow), and the short link is [teerth.dev/epsilon-hollow](https://teerth.dev/epsilon-hollow). Key files at commit `36b1400`:
 
 - [README.md](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/README.md): the idea and the four pillars.
 - [docs/RESULTS.md](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/docs/RESULTS.md): every number with its provenance, equations (1) to (9), the Limits list.
@@ -3038,7 +3038,7 @@ Related essays on this site: [separatrix](/separatrix), which grew out of this w
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/aether-lang
 - Repository: https://github.com/teerthsharma/Aether-Lang
-- Project site: https://teerth.dev/Aether-Lang/
+- Project site: https://blog.teerth.dev/aether-lang/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Aether-Lang", 2026, https://teerth.blog/aether-lang
@@ -3499,7 +3499,7 @@ falls from 38.3% at sequence 128 to 5.6% at 512, and goes to −109% at top-$k$ 
 
 [View the project](https://github.com/teerthsharma/Aether-Lang) · [Source on GitHub](https://github.com/teerthsharma/Aether-Lang)
 
-- The project site, with every theorem and algorithm drawn: [teerth.dev/Aether-Lang](https://teerth.dev/Aether-Lang/). Short link: [teerth.dev/aether-lang](https://teerth.dev/aether-lang).
+- The project site, with every theorem and algorithm drawn: [teerth.dev/Aether-Lang](https://blog.teerth.dev/aether-lang/). Short link: [teerth.dev/aether-lang](https://teerth.dev/aether-lang).
 - The repository: [github.com/teerthsharma/Aether-Lang](https://github.com/teerthsharma/Aether-Lang), read at commit [`6d8d004`](https://github.com/teerthsharma/Aether-Lang/tree/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50).
 - [README.md](https://github.com/teerthsharma/Aether-Lang/blob/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50/README.md): the tour program and the three loop forms.
 - [PAPER.md](https://github.com/teerthsharma/Aether-Lang/blob/6d8d004717b154ad3f3b0bc2d9cd4d026e831a50/PAPER.md): the technical account, with 29 numbered results, the evaluation, "What we got wrong" and the limits.
@@ -3524,7 +3524,7 @@ falls from 38.3% at sequence 128 to 5.6% at 512, and goes to −109% at top-$k$ 
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/topological-ml-toolkit
 - Repository: https://github.com/teerthsharma/topological-ml-toolkit
-- Project site: https://teerth.dev/topological-ml-toolkit/
+- Project site: https://blog.teerth.dev/topological-ml-toolkit/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "topological-ml-toolkit", 2026, https://teerth.blog/topological-ml-toolkit
@@ -4235,7 +4235,7 @@ I read the README against the source at 342287e. These are the places they do no
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/monodromy
 - Repository: https://github.com/teerthsharma/monodromy
-- Project site: https://teerth.dev/monodromy/
+- Project site: https://blog.teerth.dev/monodromy/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "monodromy", 2026, https://teerth.blog/monodromy
@@ -4510,7 +4510,7 @@ Some sources disagree with each other, and I cite both values rather than pick o
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/em-field-simulator
 - Repository: https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator
-- Project site: https://teerth.dev/Electromagnetic-Field-Data-Simulator/
+- Project site: https://blog.teerth.dev/em-field-simulator/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Electromagnetic-Field-Data-Simulator", 2026, https://teerth.blog/em-field-simulator
@@ -4728,7 +4728,7 @@ What survives the comparison is one specific arrangement. In a single browser lo
 
 [View the project](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator) · [Source on GitHub](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator)
 
-The hosted app is at [teerth.dev/Electromagnetic-Field-Data-Simulator](https://teerth.dev/Electromagnetic-Field-Data-Simulator/) and the source at [github.com/teerthsharma/Electromagnetic-Field-Data-Simulator](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator). Version 0.1.0 is archived on Zenodo as [10.5281/zenodo.21997896](https://doi.org/10.5281/zenodo.21997896). The files that carry the substance, all at commit `f664a02`:
+The hosted app is at [teerth.dev/Electromagnetic-Field-Data-Simulator](https://blog.teerth.dev/em-field-simulator/) and the source at [github.com/teerthsharma/Electromagnetic-Field-Data-Simulator](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator). Version 0.1.0 is archived on Zenodo as [10.5281/zenodo.21997896](https://doi.org/10.5281/zenodo.21997896). The files that carry the substance, all at commit `f664a02`:
 
 - [`docs/EM_FIELD_DATA_SIMULATOR.md`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/docs/EM_FIELD_DATA_SIMULATOR.md): the design document, scenario descriptions and stated limits.
 - [`crates/em-field-sim/src/lib.rs`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/crates/em-field-sim/src/lib.rs): the Rust reference core; [`crates/em-field-sim/tests/faraday_contract.rs`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/crates/em-field-sim/tests/faraday_contract.rs): its tests.

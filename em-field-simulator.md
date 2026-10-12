@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/em-field-simulator
 - Repository: https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator
-- Project site: https://teerth.dev/Electromagnetic-Field-Data-Simulator/
+- Project site: https://blog.teerth.dev/em-field-simulator/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Electromagnetic-Field-Data-Simulator", 2026, https://teerth.blog/em-field-simulator
@@ -227,7 +227,7 @@ What survives the comparison is one specific arrangement. In a single browser lo
 
 [View the project](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator) · [Source on GitHub](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator)
 
-The hosted app is at [teerth.dev/Electromagnetic-Field-Data-Simulator](https://teerth.dev/Electromagnetic-Field-Data-Simulator/) and the source at [github.com/teerthsharma/Electromagnetic-Field-Data-Simulator](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator). Version 0.1.0 is archived on Zenodo as [10.5281/zenodo.21997896](https://doi.org/10.5281/zenodo.21997896). The files that carry the substance, all at commit `f664a02`:
+The hosted app is at [teerth.dev/Electromagnetic-Field-Data-Simulator](https://blog.teerth.dev/em-field-simulator/) and the source at [github.com/teerthsharma/Electromagnetic-Field-Data-Simulator](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator). Version 0.1.0 is archived on Zenodo as [10.5281/zenodo.21997896](https://doi.org/10.5281/zenodo.21997896). The files that carry the substance, all at commit `f664a02`:
 
 - [`docs/EM_FIELD_DATA_SIMULATOR.md`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/docs/EM_FIELD_DATA_SIMULATOR.md): the design document, scenario descriptions and stated limits.
 - [`crates/em-field-sim/src/lib.rs`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/crates/em-field-sim/src/lib.rs): the Rust reference core; [`crates/em-field-sim/tests/faraday_contract.rs`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/crates/em-field-sim/tests/faraday_contract.rs): its tests.

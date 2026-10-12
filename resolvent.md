@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/resolvent
 - Repository: https://github.com/teerthsharma/resolvent
-- Project site: https://teerth.dev/resolvent/
+- Project site: https://blog.teerth.dev/resolvent/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "resolvent", 2026, https://teerth.blog/resolvent
@@ -413,7 +413,7 @@ with closable defined as one minus the distance arm's NS and the edge as $\mathr
 [View the project](https://github.com/teerthsharma/resolvent) · [Source on GitHub](https://github.com/teerthsharma/resolvent)
 
 - The repository: [github.com/teerthsharma/resolvent](https://github.com/teerthsharma/resolvent), read at commit `3b1b7c1f52b848b81e97f01317cb397c624cf16c`.
-- The project site: [teerth.dev/resolvent](https://teerth.dev/resolvent/). The site's pages still tell the CEQ family's story; they are regrouped, not rewritten.
+- The project site: [teerth.dev/resolvent](https://blog.teerth.dev/resolvent/). The site's pages still tell the CEQ family's story; they are regrouped, not rewritten.
 - The [README](https://github.com/teerthsharma/resolvent/blob/3b1b7c1f52b848b81e97f01317cb397c624cf16c/README.md), including the "What we got wrong" table and the limits.
 - The library: [`resolvent/`](https://github.com/teerthsharma/resolvent/tree/3b1b7c1f52b848b81e97f01317cb397c624cf16c/resolvent), with `resolvent.py`, `heads.py`, `djepa.py` and the three beds.
 - The Lean proofs: [`lean/CEQ/`](https://github.com/teerthsharma/resolvent/tree/3b1b7c1f52b848b81e97f01317cb397c624cf16c/lean/CEQ), in particular `Occupancy.lean`, `Nilpotent.lean`, `Contraction.lean` and `OracleSeparation.lean`.

@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/monodromy
 - Repository: https://github.com/teerthsharma/monodromy
-- Project site: https://teerth.dev/monodromy/
+- Project site: https://blog.teerth.dev/monodromy/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "monodromy", 2026, https://teerth.blog/monodromy

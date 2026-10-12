@@ -9,7 +9,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/caustic
 - Repository: https://github.com/teerthsharma/caustic
-- Project site: https://teerth.dev/caustic/
+- Project site: https://blog.teerth.dev/caustic/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "caustic", 2026, https://teerth.blog/caustic
@@ -326,9 +326,9 @@ The certificate is one-sided, the detector detects collapse, and almost every me
 
 ## Read more
 
-[View the project](https://teerth.dev/caustic/) · [Source on GitHub](https://github.com/teerthsharma/caustic)
+[View the project](https://blog.teerth.dev/caustic/) · [Source on GitHub](https://github.com/teerthsharma/caustic)
 
-The project site is [teerth.dev/caustic](https://teerth.dev/caustic/) and the source is [github.com/teerthsharma/caustic](https://github.com/teerthsharma/caustic). Every line reference in this essay is at commit [`6fed3df`](https://github.com/teerthsharma/caustic/tree/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2).
+The project site is [teerth.dev/caustic](https://blog.teerth.dev/caustic/) and the source is [github.com/teerthsharma/caustic](https://github.com/teerthsharma/caustic). Every line reference in this essay is at commit [`6fed3df`](https://github.com/teerthsharma/caustic/tree/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2).
 
 Key files:
 
