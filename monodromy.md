@@ -19,7 +19,7 @@
 
 ## What it is
 
-monodromy is a Python library that asks one question of a map $F:\mathbb{R}^n\to\mathbb{R}^n$: can it be run backwards? A map can be undone exactly when it is injective, when two different inputs never land on the same output. People who need this answer use it every day without saying so. A normalizing flow computes the probability of an image by inverting its transformation; if the transformation folds, the probability is wrong. A registration warp lays one brain scan over another; if the warp folds, two pieces of tissue land on the same spot. A simulation mesh must not pass through itself.
+monodromy is a Python library that asks one question of a map $F:\mathbb{R}^n\to\mathbb{R}^n$: can it be run backwards? A map can be undone exactly when it is injective, when two different inputs never land on the same output. People who need this answer use it every day without saying so. A normalizing flow computes the probability of an image by inverting its transformation; if the transformation folds, the probability is wrong. A registration warp lays one brain scan over another; if the warp folds, two pieces of tissue land on the same spot. A simulation mesh must not pass through itself. It came after [topological-ml-toolkit](/topological-ml-toolkit) in the [Aether-Lang](/aether-lang) family.
 
 The check everyone runs is pointwise. Sample the domain, compute the Jacobian determinant $\det DF(x)$ at each sample, and if it never vanishes, or never changes sign, call the map invertible. The forward half of that reasoning is sound: a nonvanishing determinant makes $F$ a local diffeomorphism by the inverse function theorem. The converse, that being invertible near every point makes the map invertible as a whole, is false, and the simplest counterexample is a strip of paper rolled into a tube.
 
@@ -268,4 +268,4 @@ Some sources disagree with each other, and I cite both values rather than pick o
 - [docs/corrections.md](https://github.com/teerthsharma/monodromy/blob/348c9aadffce63396b488538e3cbd6002ad75f46/docs/corrections.md): what was claimed, what refuted it, what changed.
 - [docs/novelty.md](https://github.com/teerthsharma/monodromy/blob/348c9aadffce63396b488538e3cbd6002ad75f46/docs/novelty.md): the literature sweep and its caveats.
 - [tests/test_beats_jacobian.py](https://github.com/teerthsharma/monodromy/blob/348c9aadffce63396b488538e3cbd6002ad75f46/tests/test_beats_jacobian.py): the eight maps and the 8/8 against 6/8 test.
-- Related essays on this blog: [caustic](/caustic), whose Theorem 5 the injectivity module cites, and [topological-ml-toolkit](/topological-ml-toolkit).
+- Related essays on this blog: [caustic](/caustic), whose Theorem 5 the injectivity module cites, [topological-ml-toolkit](/topological-ml-toolkit), which monodromy came after; and [Aether-Lang](https://teerth.blog/aether-lang), the family they belong to.

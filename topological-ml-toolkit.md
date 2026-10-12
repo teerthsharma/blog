@@ -140,6 +140,12 @@ The H0 barcode is a connected-component computation, and the toolkit's native pa
 
 The pull request reports its own controls: 1,851 of 1,851 CTest entries passing serially (one pre-existing locale test skipped), exact island arrays and trajectories on 18 of 18 models, and a direct `mj_island` speedup of 1.6847× with a 99% interval of \[1.5494, 1.8333] over 480 pairs. The timing matrix is synthetic, and the PR reports the full-step speedup of 1.0355× "as measured context, not as a universal MuJoCo or Warp speedup claim". The 3.11.0 changelog lists it as "Replaced quadratic scratch in DFS flood-fill island discovery with a linear-memory Union-Find (disjoint set)."
 
+### It led to a fix in Topograph
+
+Work on the toolkit led to a second fix, in NVIDIA's Topograph.
+
+**Upstream:&#x20;**[NVIDIA/topograph #432](https://github.com/NVIDIA/topograph/pull/432), fix(chart): gate main ClusterRole rules by engine and provider (merged 2026-08-19). The chart's main ClusterRole rules (nodes, pods, daemonsets) are gated on engine.name and provider.name; provider test with engine slurm renders no ClusterRole. From PR head c71a7b0 on main at 6466969: helm lint 1/1 chart, helm unittest 141/141 tests across 19/19 suites, 153/153 snapshots. Work on topological-ml-toolkit led to this fix.
+
 ## How it was made
 
 ### The filtration
@@ -367,8 +373,9 @@ Key files at that commit:
 Related essays on this blog:
 
 - [Aether-Lang](/aether-lang), the language and runtime this toolkit is built on, where an H0 barcode decides when topological routing of attention pays.
-- [nerve](/nerve), on global topology (knot type, linking) that local descriptors merge away.
+- [nerve](/nerve), on global topology (knot type, linking) that local descriptors merge away; it came after the toolkit in the Aether-Lang family.
+- [monodromy](/monodromy), on whether a map can be run backwards; it also came after the toolkit in the Aether-Lang family.
 - [sigmoid](/sigmoid), which builds its H0 barcode from a minimum spanning tree and uses it inside a world model.
 - [planimeter](/planimeter), where single-linkage merge heights, the same numbers as the H0 deaths here, decide which endpoints are the same point.
 
-Upstream: [google-deepmind/mujoco#3396](https://github.com/google-deepmind/mujoco/pull/3396), "Remove quadratic scratch from native island discovery" (short link [teerth.dev/mujoco-3396](https://teerth.dev/mujoco-3396)), and the [MuJoCo 3.11.0 changelog](https://mujoco.readthedocs.io/en/3.11.0/changelog.html#version-3-11-0-july-27-2026) entry that credits it.
+Upstream: [NVIDIA/topograph#432](https://github.com/NVIDIA/topograph/pull/432), "fix(chart): gate main ClusterRole rules by engine and provider", and [google-deepmind/mujoco#3396](https://github.com/google-deepmind/mujoco/pull/3396), "Remove quadratic scratch from native island discovery" (short link [teerth.dev/mujoco-3396](https://teerth.dev/mujoco-3396)), and the [MuJoCo 3.11.0 changelog](https://mujoco.readthedocs.io/en/3.11.0/changelog.html#version-3-11-0-july-27-2026) entry that credits it.

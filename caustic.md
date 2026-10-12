@@ -67,6 +67,12 @@ I quote only the σ values the committed script actually runs. Its grid is `(0.0
 
 **System prompts and ensembles.** A system prompt is a prefix, so it can move the partition too. The README counts six prompt conditions on `capital`, the empty prompt among them as the reference. None of the five actual prompts left the partition intact: adjusted Rand index against the no-prompt partition was at most 0.2721, and exactly 0.0000 for two of them. The prompt asking the model to say so rather than guess when uncertain cut accuracy from 0.550 to 0.300 and merged orbits from 15 to 9, raising the certified floor from 0.250 to 0.550. A JSON-format instruction reached 0.950. Averaging logits across eight neutral prefixes scored 0.100 on `capital`, below the 0.550 of one pass, while majority vote scored 0.600.
 
+### Upstream
+
+Work on caustic led to a pull request in Pyrefly, Meta's Python type checker.
+
+**Upstream:&#x20;**[facebook/pyrefly #4180](https://github.com/facebook/pyrefly/pull/4180), test: capture capped recheck propagation panic (landed as 3e90baa). Adds a Rust test that generates a finite chain of 208 two-module SCCs and records the current 'Transaction has uncommitted changes' failure with #\[should_panic]. The PR states it is a synthetic reproducer and contains no scheduler fix; cargo test test::incremental: 75 passed. Work on caustic led to this fix.
+
 ## How it was made
 
 The construction has one object, a handful of counting theorems over it, and four results from other branches of mathematics that explain why the counting is the right thing to measure. The theorems are proved on paper in the module docstring of `caustic/theorems.py`, each with an executable witness; the repository has no Lean.
@@ -338,6 +344,8 @@ Key files:
 - [`caustic/regime.py`](https://github.com/teerthsharma/caustic/blob/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2/caustic/regime.py), [`caustic/governor.py`](https://github.com/teerthsharma/caustic/blob/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2/caustic/governor.py), [`caustic/guard.py`](https://github.com/teerthsharma/caustic/blob/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2/caustic/guard.py): the partition, the governor and the inference-time guard.
 - [`tests/test_recall_no_go.py`](https://github.com/teerthsharma/caustic/blob/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2/tests/test_recall_no_go.py): the exhaustive Theorem 8 check.
 - [`notebooks/caustic_quickstart.ipynb`](https://github.com/teerthsharma/caustic/blob/6fed3dfb630f854d64e5bdb1cd916d13d5abc8c2/notebooks/caustic_quickstart.ipynb): the quickstart, including the 135M non-reproduction.
+
+The upstream pull request: [facebook/pyrefly#4180](https://github.com/facebook/pyrefly/pull/4180).
 
 Related essays on this blog:
 

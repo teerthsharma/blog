@@ -41,7 +41,7 @@ The README and `docs/THEOREMS.md` still quote an older banner, "9 of 10 theorems
 
 What the kernel is not matters as much. No instruction has executed in user mode; the applications are kernel code. Bring-up of the other processors is written, but its only call is commented out. Hardware coverage is one QEMU configuration. So I do not describe Seal OS as a general operating system. It boots under QEMU, brings up its drivers, mounts its filesystem, replays its ML proofs on synthetic traces and evaluates its own theorem lines, and those are the parts this essay is about.
 
-One tool grew out of this work: [separatrix](/separatrix), which has its own essay.&#x20;
+Three tools came out of this work: [separatrix](/separatrix), [tangle](/tangle) and [planimeter](/planimeter), each with its own essay.
 
 ## What it can do
 
@@ -99,11 +99,17 @@ The README adds the sentence that has to go with both numbers: "Whether this lay
 
 ### Upstream
 
-Work on Epsilon-Hollow led to these fixes in two other projects. I state the link in those words and no more.
+Work on Epsilon-Hollow led to these fixes in five other projects. I state the link in those words and no more.
 
 **Upstream:&#x20;**[openxla/xla #46539](https://github.com/openxla/xla/pull/46539), fix(gpu): make reduction group order deterministic (landed as 3d5df1d). Switches the set that drives the union-find merges in GroupDisjointReductions to absl::linked_hash_set, so the group-to-block assignment no longer depends on hash-set iteration order (as the PR states it). Work on Epsilon-Hollow led to this fix.
 
 **Upstream:&#x20;**[tensorflow/tensorflow #124410](https://github.com/tensorflow/tensorflow/pull/124410), Fix transitive reduction of collective control edges (merged 2026-08-05). Closes reachability exactly in one pass, so the unique transitive reduction of the collective control edges is emitted; the PR's four-op example drops a redundant edge (four edges to three). Work on Epsilon-Hollow led to this fix.
+
+**Upstream:&#x20;**[NVIDIA/NeMo-Relay #481](https://github.com/NVIDIA/NeMo-Relay/pull/481), fix(adaptive): reuse stable ACG scaffolds (merged 2026-08-10). Cross-process agreement of the reuse fingerprint over N = 20 processes: 0.479 on main, 1.000 on the PR head. The PR states no governor, drift, convergence or binding change, and claims no provider-cache, cost or latency improvement. Work on Epsilon-Hollow led to this fix.
+
+**Upstream:&#x20;**[google-deepmind/mujoco #3450](https://github.com/google-deepmind/mujoco/pull/3450), Remove quadratic scan from convex hull graph construction (merged 2026-08-03). Cold mj_loadXML of generated convex-hull meshes, main against the PR: 1,354.388 ms to 321.908 ms (4.21x) at 40,962 hull vertices; within noise below about 2,500 (0.97x at 162). The graph checksum is identical at all six sizes, and 1,339/1,339 serial CTest entries passed. Work on Epsilon-Hollow led to this fix.
+
+**Upstream:&#x20;**[google-deepmind/mujoco_warp #1541](https://github.com/google-deepmind/mujoco_warp/pull/1541), Replace quadratic island discovery with a linear-memory GPU DSU (merged 2026-08-25). On the aloha_clutter checkpoint (2,048 worlds) direct island discovery matched the dense kernels exactly and was 1.513x faster by geometric mean (99% interval 1.406x to 1.584x); reusable scratch fell from 7,929,856 B to 180,224 B (97.73%). The PR claims no end-to-end step speedup. Work on Epsilon-Hollow led to this fix.
 
 ## How it was made
 
@@ -535,6 +541,6 @@ The project page at [teerth.dev/Epsilon-Hollow](https://blog.teerth.dev/epsilon-
 - [kernel/aether/aether-verified/lean/](https://github.com/teerthsharma/Epsilon-Hollow/tree/36b1400d8c744c11434925f82af6668b84b33187/kernel/aether/aether-verified/lean): the Lean 4 package.
 - [certified_betti.rs](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/kernel/epsilon/epsilon/crates/aether-core/src/certified_betti.rs), [attention.rs](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/kernel/epsilon/epsilon/crates/aether-core/src/attention.rs), [trajectory_shape.rs](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/kernel/epsilon/epsilon/crates/aether-core/src/trajectory_shape.rs) and [foliation.rs](https://github.com/teerthsharma/Epsilon-Hollow/blob/36b1400d8c744c11434925f82af6668b84b33187/kernel/seal-os/src/ml_engine/foliation.rs): the certified kernels and the KV prefix tree.
 
-Related essays on this site: [separatrix](/separatrix), which grew out of this work, and [Aether-Lang](/aether-lang), whose `no_std` runtime the kernel embeds. The upstream fixes above are at [openxla/xla#46539](https://github.com/openxla/xla/pull/46539) (closed, and landed on main through Google's internal import as [3d5df1d](https://github.com/openxla/xla/commit/3d5df1da699bfb63cbeedaa56f09885c7974b06e)) and [tensorflow/tensorflow#124410](https://github.com/tensorflow/tensorflow/pull/124410) (merged; short link [teerth.dev/tensorflow-124410](https://teerth.dev/tensorflow-124410)).
+Related essays on this site: [separatrix](/separatrix), [tangle](/tangle) and [planimeter](/planimeter), which came out of this work, and [Aether-Lang](/aether-lang), whose `no_std` runtime the kernel embeds. The upstream fixes above are at [openxla/xla#46539](https://github.com/openxla/xla/pull/46539) (closed, and landed on main through Google's internal import as [3d5df1d](https://github.com/openxla/xla/commit/3d5df1da699bfb63cbeedaa56f09885c7974b06e)) [tensorflow/tensorflow#124410](https://github.com/tensorflow/tensorflow/pull/124410) (merged; short link [teerth.dev/tensorflow-124410](https://teerth.dev/tensorflow-124410)), [NVIDIA/NeMo-Relay#481](https://github.com/NVIDIA/NeMo-Relay/pull/481), [google-deepmind/mujoco#3450](https://github.com/google-deepmind/mujoco/pull/3450) and [google-deepmind/mujoco_warp#1541](https://github.com/google-deepmind/mujoco_warp/pull/1541).
 
 **Figure 10.** Where Epsilon-Hollow's work went, drawn only from links the owner confirmed on 2026-10-11. The repository led to openxla/xla pull request 46539 (closed; the change landed on main as commit 3d5df1d) and to tensorflow/tensorflow pull request 124410 (merged), and separatrix came out of it. Arrows follow how the owner words each relation. Focus or hover a node to read the owner's statement and what the pull request changed; the chips filter the map to the upstream pull requests or to separatrix. A merged or landed pull request is not evidence for any claim on this site. Colour key: structure: Epsilon-Hollow; ink-3: arrow: a relation the owner confirmed (led to, came out of).

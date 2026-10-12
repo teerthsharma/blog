@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/ContractionRatio.fig.78szSlEz.js","_astro/_lib.C-vpxAGp.js"])))=>i.map(i=>d[i]);
-import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`faraday/contraction-ratio`,()=>e(()=>import(`./ContractionRatio.fig.78szSlEz.js`),__vite__mapDeps([0,1])));
