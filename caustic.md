@@ -353,4 +353,4 @@ Related essays on this blog:
 
 - [monodromy](/monodromy): the same question from the geometry side, whether a map can be run backwards, and why a pointwise Jacobian determinant check does not settle it.
 - [resolvent](/resolvent): another case where scoring each item on its own is the wrong rule, there for candidates in a world-model planner.
-- [sigmoid](/sigmoid): a world model built to say when it does not know, the abstention problem from another direction.
+- [sigmoid](/sigmoid): came out of caustic and Epsilon-Hollow together; a world model built to say when it does not know, the abstention problem from another direction.

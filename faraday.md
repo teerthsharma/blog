@@ -245,4 +245,4 @@ The source is at [github.com/teerthsharma/faraday](https://github.com/teerthshar
 Related essays on this site:
 
 - [resolvent](https://teerth.blog/resolvent): faraday belongs to the same line of work.
-- [the electromagnetic field simulator](/em-field-simulator): a different Faraday-tensor toolkit that shares no code with this package.
+- [the electromagnetic field simulator](/em-field-simulator): Electromagnetic-Field-Data-Simulator came out of faraday.

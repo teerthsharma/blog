@@ -35,7 +35,7 @@ $$
 
 Row 0 holds $+\mathbf E$ and the spatial block holds $\mathbf B$ in the pattern above. The repository calls the object $F_{\mu\nu}$ but never says which index is time or which metric signature it assumes, so the sign convention is fixed by the matrix and stated nowhere. The tests check what the matrix literal guarantees by construction: the diagonal is exactly zero, $F_{\mu\nu}+F_{\nu\mu}$ is below $10^{-12}$, and reading $\mathbf E$ and $\mathbf B$ back out returns the inputs.
 
-There is one other project of mine that touches the same ground, [faraday](/faraday). The two repositories share no code and neither names the other. They share one idea: threshold a field, then summarise the thresholded set topologically.
+Electromagnetic-Field-Data-Simulator came out of [faraday](/faraday). The two share one idea: threshold a field, then summarise the thresholded set topologically.
 
 ## What it can do
 
@@ -235,4 +235,4 @@ The hosted app is at [teerth.dev/Electromagnetic-Field-Data-Simulator](https://b
 - [`web/src/sim/faraday.ts`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/web/src/sim/faraday.ts) and [`web/src/App.tsx`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/web/src/App.tsx): the TypeScript port and the app.
 - [`web/public/data/sample-scenario.json`](https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator/blob/f664a02ac981f3f4bb785d7015904e1c4f240386/web/public/data/sample-scenario.json): the committed 8×8 fixture.
 
-Related essays on this site: [faraday](/faraday), which shares the idea of thresholding a field and summarising the thresholded set topologically, and [topological-ml-toolkit](/topological-ml-toolkit), a separate library of mine for topology in machine-learning pipelines, including persistent homology.
+Related essays on this site: [faraday](/faraday), which this project came out of and which shares the idea of thresholding a field and summarising the thresholded set topologically, and [topological-ml-toolkit](/topological-ml-toolkit), a separate library of mine for topology in machine-learning pipelines, including persistent homology.
