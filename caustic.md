@@ -347,6 +347,8 @@ Key files:
 
 The upstream pull request: [facebook/pyrefly#4180](https://github.com/facebook/pyrefly/pull/4180).
 
+Asmodeus came out of caustic and resolvent together: [github.com/teerthsharma/Asmodeus](https://github.com/teerthsharma/Asmodeus).
+
 Related essays on this blog:
 
 - [monodromy](/monodromy): the same question from the geometry side, whether a map can be run backwards, and why a pointwise Jacobian determinant check does not settle it.

@@ -23,6 +23,7 @@ Teerth Sharma is a programmer whose upstream contributions run in Google DeepMin
 - [monodromy](https://teerth.blog/monodromy.md): Testing whether a map can be run backwards by comparing pairs of points, instead of checking its Jacobian one point at a time. Headline: 8/8 maps classified correctly on the repo's benchmark (ρ path, Jacobian passed in). Code: https://github.com/teerthsharma/monodromy
 - [faraday](https://teerth.blog/faraday.md): Counts where a cavity mode's electric nodal lines meet the wall and where its magnetic field curls inside, and tests the exact law between the two. Headline: 132 of 132 TM modes of 11 cavities obey Q = χ(D) + N_wall/2, from a rectangle to a disk with two holes. Code: https://github.com/teerthsharma/faraday
 - [Electromagnetic-Field-Data-Simulator](https://teerth.blog/em-field-simulator.md): A Rust, Python and TypeScript toolkit that builds the Faraday tensor from sampled E and B fields and summarises the energy map as a graph. Headline: 3 implementations of one Faraday-tensor pipeline: Rust, Python, TypeScript. Code: https://github.com/teerthsharma/Electromagnetic-Field-Data-Simulator
+- [Asmodeus](https://teerth.blog/asmodeus.md): A stream whose law changes, then comes back. Asmodeus keeps one small table per law and a softmax over them, so a returning law is recalled, not re-learned. Headline: 11× lower regret against an oracle than the best owned online learner, on streams of 4 recurring laws, 10 fresh seeds: 0.0277 vs 0.3056 nats per token. Code: https://github.com/teerthsharma/Asmodeus
 
 ## Author
 
