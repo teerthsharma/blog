@@ -2,7 +2,7 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# An OS kernel whose answers rounding errors cannot change
+# World's first topologically derived OS for machine learning at scale, in Rust
 
 *Epsilon-Hollow*
 
@@ -14,7 +14,7 @@
 - Project site: https://blog.teerth.dev/epsilon-hollow/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "An OS kernel whose answers rounding errors cannot change", 2026, https://teerth.blog/epsilon-hollow
+- Cite as: Teerth Sharma (teerth.blog), "World's first topologically derived OS for machine learning at scale, in Rust", 2026, https://teerth.blog/epsilon-hollow
 - Languages: Rust, Lean 4
 - Question: Can a kernel read the shape of the ML work it runs, and refuse any integer that floating-point rounding, not the data, decided?
 - Headline result: 1,215 → 0 wrong nearest-centroid answers in 5,000 seeded queries, before and after the certificate (control: reported hit rate 1.0000 before, 0.9818 after; stated on the project page, not re-measured)
