@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# sigmoid
+# Predicting a neural network's next activations from their shape
+
+*sigmoid*
 
 > Measuring the shape of a trained model's activations as a state, and rolling that state forward with one ridge solve instead of a second network.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/sigmoid
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "sigmoid", 2026, https://teerth.blog/sigmoid
+- Cite as: Teerth Sharma (teerth.blog), "Predicting a neural network's next activations from their shape", 2026, https://teerth.blog/sigmoid
 - Languages: Python
 - Question: Can the persistent homology of an activation window be a state that a closed-form operator rolls forward, and can the rollout say when to stop being trusted?
 - Headline result: 0.855 island partition read from ψ, probe accuracy on the S²-Rips corpus (control: PCA channel 0.469 · majority class 0.487)

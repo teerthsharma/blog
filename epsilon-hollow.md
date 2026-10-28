@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Epsilon-Hollow
+# An OS kernel whose answers rounding errors cannot change
+
+*Epsilon-Hollow*
 
 > A research kernel that keeps its state as points on a sphere and returns each discrete answer with a certificate that rounding could not change it, or refuses.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/epsilon-hollow/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Epsilon-Hollow", 2026, https://teerth.blog/epsilon-hollow
+- Cite as: Teerth Sharma (teerth.blog), "An OS kernel whose answers rounding errors cannot change", 2026, https://teerth.blog/epsilon-hollow
 - Languages: Rust, Lean 4
 - Question: Can a kernel read the shape of the ML work it runs, and refuse any integer that floating-point rounding, not the data, decided?
 - Headline result: 1,215 → 0 wrong nearest-centroid answers in 5,000 seeded queries, before and after the certificate (control: reported hit rate 1.0000 before, 0.9818 after; stated on the project page, not re-measured)

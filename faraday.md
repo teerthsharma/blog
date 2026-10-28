@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# faraday
+# A counting law linking a cavity's electric and magnetic modes
+
+*faraday*
 
 > Counts where a cavity mode's electric nodal lines meet the wall and where its magnetic field curls inside, and tests the exact law between the two.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/faraday
 - Updated: 2026-10-13
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "faraday", 2026, https://teerth.blog/faraday
+- Cite as: Teerth Sharma (teerth.blog), "A counting law linking a cavity's electric and magnetic modes", 2026, https://teerth.blog/faraday
 - Languages: Python
 - Question: Does the topology of a cavity mode's magnetic field inside the cavity follow from where the electric field's nodal lines meet the wall?
 - Headline result: 132 of 132 TM modes of 11 cavities obey Q = χ(D) + N_wall/2, from a rectangle to a disk with two holes (control: a distractor term in the least-squares fit gets weight 0.0000; on a 15 × 15 grid the same check fails on 25 of 320 signature entries)

@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# nerve
+# Can a machine-learning model see knots in polymer chains?
+
+*nerve*
 
 > Can a local atomic descriptor see how polymer chains are linked and knotted? A Rust harness that counts what the descriptor merges.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/nerve
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "nerve", 2026, https://teerth.blog/nerve
+- Cite as: Teerth Sharma (teerth.blog), "Can a machine-learning model see knots in polymer chains?", 2026, https://teerth.blog/nerve
 - Languages: Rust
 - Question: Which chain topologies does a local atomic descriptor send to the same output, and can the cost of that be counted without a single label?
 - Headline result: 3 of 4 blindness hypotheses withdrawn by the repository's own controls; the fourth survives only while the strands are farther apart than the cutoff (control: each withdrawal names what killed it: a same-architecture seed-noise floor, a measured |Lk| significance of 1.2327 instead of 0.1 by eye, and the 2-body residual at the same cutoff)

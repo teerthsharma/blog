@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# resolvent
+# Picking the best prediction when every candidate shares one error
+
+*resolvent*
 
 > A JEPA planner ranks candidate futures one at a time. When they share one error, the right pick depends on the whole candidate set.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/resolvent/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "resolvent", 2026, https://teerth.blog/resolvent
+- Cite as: Teerth Sharma (teerth.blog), "Picking the best prediction when every candidate shares one error", 2026, https://teerth.blog/resolvent
 - Languages: Python, Lean 4
 - Question: When every candidate's prediction shares one error, how much can a set operator over the candidates recover, and where does it stop helping?
 - Headline result: 0.732 / 0.703 / 0.787 normalised score, D-JEPA-spec operator at ε = 4, K = 63, full shared error, 3 seeds (control: D-JEPA as specified (ε = 0.2): 0.352 / 0.354 / 0.358)

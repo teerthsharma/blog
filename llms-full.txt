@@ -6,7 +6,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# resolvent
+# Picking the best prediction when every candidate shares one error
+
+*resolvent*
 
 > A JEPA planner ranks candidate futures one at a time. When they share one error, the right pick depends on the whole candidate set.
 
@@ -16,7 +18,7 @@
 - Project site: https://blog.teerth.dev/resolvent/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "resolvent", 2026, https://teerth.blog/resolvent
+- Cite as: Teerth Sharma (teerth.blog), "Picking the best prediction when every candidate shares one error", 2026, https://teerth.blog/resolvent
 - Languages: Python, Lean 4
 - Question: When every candidate's prediction shares one error, how much can a set operator over the candidates recover, and where does it stop helping?
 - Headline result: 0.732 / 0.703 / 0.787 normalised score, D-JEPA-spec operator at ε = 4, K = 63, full shared error, 3 seeds (control: D-JEPA as specified (ε = 0.2): 0.352 / 0.354 / 0.358)
@@ -434,7 +436,9 @@ with closable defined as one minus the distance arm's NS and the edge as $\mathr
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# sigmoid
+# Predicting a neural network's next activations from their shape
+
+*sigmoid*
 
 > Measuring the shape of a trained model's activations as a state, and rolling that state forward with one ridge solve instead of a second network.
 
@@ -443,7 +447,7 @@ with closable defined as one minus the distance arm's NS and the edge as $\mathr
 - Repository: https://github.com/teerthsharma/sigmoid
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "sigmoid", 2026, https://teerth.blog/sigmoid
+- Cite as: Teerth Sharma (teerth.blog), "Predicting a neural network's next activations from their shape", 2026, https://teerth.blog/sigmoid
 - Languages: Python
 - Question: Can the persistent homology of an activation window be a state that a closed-form operator rolls forward, and can the rollout say when to stop being trusted?
 - Headline result: 0.855 island partition read from ψ, probe accuracy on the S²-Rips corpus (control: PCA channel 0.469 · majority class 0.487)
@@ -806,7 +810,9 @@ Related essays on this blog: [Aether-Lang](/aether-lang), where the topology-der
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# caustic
+# Detecting LLM hallucinations without labels
+
+*caustic*
 
 > A model can hold a fact and still fail to reach it. When it fails, distinct entities collapse onto one answer, and the collapse proves errors.
 
@@ -816,7 +822,7 @@ Related essays on this blog: [Aether-Lang](/aether-lang), where the topology-der
 - Project site: https://blog.teerth.dev/caustic/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "caustic", 2026, https://teerth.blog/caustic
+- Cite as: Teerth Sharma (teerth.blog), "Detecting LLM hallucinations without labels", 2026, https://teerth.blog/caustic
 - Languages: Python
 - Question: How many of a model's answers can be proved wrong without knowing a single correct answer?
 - Headline result: 0.950 certified error floor on 20 country–capital prompts behind 128 tokens of " the", computed from the model's answers alone (control: 128 tokens of coherent prose: floor 0.000; measured error 0.000, against 1.000 behind the repeated token)
@@ -1166,7 +1172,9 @@ Related essays on this blog:
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# tangle
+# Proving two cables are linked from a photograph
+
+*tangle*
 
 > From a photo of two cables: an integer linking-number certificate, or a refusal that names the crossing to re-shoot.
 
@@ -1175,7 +1183,7 @@ Related essays on this blog:
 - Repository: https://github.com/teerthsharma/tangle
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "tangle", 2026, https://teerth.blog/tangle
+- Cite as: Teerth Sharma (teerth.blog), "Proving two cables are linked from a photograph", 2026, https://teerth.blog/tangle
 - Languages: Python
 - Question: Can two cables in one picture be proved impossible to pull apart, with a refusal instead of a guess when the picture is not good enough?
 - Headline result: 0 wrong certificates over 2,000 closed-braid diagrams and 80 rendered scenes; 0 of 247 real photographs certified (control: abstain-on-any-unknown also 0 wrong; a coin flip on the same unknowns: 755 and 47 wrong)
@@ -1475,7 +1483,9 @@ Related essays on this blog: [Epsilon-Hollow](/epsilon-hollow), the project tang
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# separatrix
+# Is your top-k result real, or just floating-point rounding?
+
+*separatrix*
 
 > Tells you whether a top-k list came from your data or from the computer's rounding, and refuses, naming the pair, when it cannot tell.
 
@@ -1484,7 +1494,7 @@ Related essays on this blog: [Epsilon-Hollow](/epsilon-hollow), the project tang
 - Repository: https://github.com/teerthsharma/separatrix
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "separatrix", 2026, https://teerth.blog/separatrix
+- Cite as: Teerth Sharma (teerth.blog), "Is your top-k result real, or just floating-point rounding?", 2026, https://teerth.blog/separatrix
 - Languages: Python
 - Question: Did my data choose this top-k set, or did floating-point rounding choose it?
 - Headline result: 0 of 1,116 certified top-10 sets moved across nine numerically distinct engines (control: all 8 sets that did move had been refused first (one draw, seed 11))
@@ -2205,7 +2215,9 @@ Related essays on this site:
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# planimeter
+# Counting the rooms in a floor plan, with proof or a refusal
+
+*planimeter*
 
 > An agent edits a drawing and reports the room count. planimeter reads the file and returns the count, or the coordinate where the file cannot say.
 
@@ -2214,7 +2226,7 @@ Related essays on this site:
 - Repository: https://github.com/teerthsharma/planimeter
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "planimeter", 2026, https://teerth.blog/planimeter
+- Cite as: Teerth Sharma (teerth.blog), "Counting the rooms in a floor plan, with proof or a refusal", 2026, https://teerth.blog/planimeter
 - Languages: Python
 - Question: Did the number of enclosed rooms in this drawing change, and if the file cannot settle it, where exactly is the doubt?
 - Headline result: 0 wrong integers on 528 constructed drawings: 495 exact, 33 refused (control: same 528 files: round-6 snap 350 wrong, shapely polygonize_full 336 wrong)
@@ -2498,7 +2510,9 @@ The repo withdraws its own claims in the same voice it uses for the results:
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Epsilon-Hollow
+# An OS kernel whose answers rounding errors cannot change
+
+*Epsilon-Hollow*
 
 > A research kernel that keeps its state as points on a sphere and returns each discrete answer with a certificate that rounding could not change it, or refuses.
 
@@ -2508,7 +2522,7 @@ The repo withdraws its own claims in the same voice it uses for the results:
 - Project site: https://blog.teerth.dev/epsilon-hollow/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Epsilon-Hollow", 2026, https://teerth.blog/epsilon-hollow
+- Cite as: Teerth Sharma (teerth.blog), "An OS kernel whose answers rounding errors cannot change", 2026, https://teerth.blog/epsilon-hollow
 - Languages: Rust, Lean 4
 - Question: Can a kernel read the shape of the ML work it runs, and refuse any integer that floating-point rounding, not the data, decided?
 - Headline result: 1,215 → 0 wrong nearest-centroid answers in 5,000 seeded queries, before and after the certificate (control: reported hit rate 1.0000 before, 0.9818 after; stated on the project page, not re-measured)
@@ -3048,7 +3062,9 @@ Related essays on this site: [separatrix](/separatrix), [tangle](/tangle) and [p
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Aether-Lang
+# A loop that stops when the shape of your data stops changing
+
+*Aether-Lang*
 
 > A research language where persistent homology is a primitive, so a loop can stop when the Betti numbers of its data stop changing.
 
@@ -3058,7 +3074,7 @@ Related essays on this site: [separatrix](/separatrix), [tangle](/tangle) and [p
 - Project site: https://blog.teerth.dev/aether-lang/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Aether-Lang", 2026, https://teerth.blog/aether-lang
+- Cite as: Teerth Sharma (teerth.blog), "A loop that stops when the shape of your data stops changing", 2026, https://teerth.blog/aether-lang
 - Languages: Rust, Lean 4, Aether
 - Question: Can a loop end on a change in the shape of its data instead of on a small float?
 - Headline result: [1, 1, 0] Betti vector at which the README tour's seal loop stops, at radius 1: one piece, one loop (control: printed by the tour program; not compared against a tuned scalar stopping rule)
@@ -3538,7 +3554,9 @@ falls from 38.3% at sequence 128 to 5.6% at 512, and goes to −109% at top-$k$ 
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# topological-ml-toolkit
+# Using the shape of data as ML features, with a certificate
+
+*topological-ml-toolkit*
 
 > Persistent homology as ordinary ML features, with a certificate that decides when one barcode can stand in for a whole moving point cloud.
 
@@ -3548,7 +3566,7 @@ falls from 38.3% at sequence 128 to 5.6% at 512, and goes to −109% at top-$k$ 
 - Project site: https://blog.teerth.dev/topological-ml-toolkit/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "topological-ml-toolkit", 2026, https://teerth.blog/topological-ml-toolkit
+- Cite as: Teerth Sharma (teerth.blog), "Using the shape of data as ML features, with a certificate", 2026, https://teerth.blog/topological-ml-toolkit
 - Languages: Rust, Python, C++, x86-64 assembly, CUDA
 - Question: When a point cloud moves, when can one persistence computation stand in for every frame?
 - Headline result: 1 of 3 persistence evaluations for a certified three-frame trajectory; every diagram equals dense recomputation within rtol 1e-10 (control: dense per-frame recomputation: 3 of 3)
@@ -3923,7 +3941,9 @@ Upstream: [NVIDIA/topograph#432](https://github.com/NVIDIA/topograph/pull/432), 
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# nerve
+# Can a machine-learning model see knots in polymer chains?
+
+*nerve*
 
 > Can a local atomic descriptor see how polymer chains are linked and knotted? A Rust harness that counts what the descriptor merges.
 
@@ -3932,7 +3952,7 @@ Upstream: [NVIDIA/topograph#432](https://github.com/NVIDIA/topograph/pull/432), 
 - Repository: https://github.com/teerthsharma/nerve
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "nerve", 2026, https://teerth.blog/nerve
+- Cite as: Teerth Sharma (teerth.blog), "Can a machine-learning model see knots in polymer chains?", 2026, https://teerth.blog/nerve
 - Languages: Rust
 - Question: Which chain topologies does a local atomic descriptor send to the same output, and can the cost of that be counted without a single label?
 - Headline result: 3 of 4 blindness hypotheses withdrawn by the repository's own controls; the fourth survives only while the strands are farther apart than the cutoff (control: each withdrawal names what killed it: a same-architecture seed-noise floor, a measured |Lk| significance of 1.2327 instead of 0.1 by eye, and the 2-body residual at the same cutoff)
@@ -4256,7 +4276,9 @@ I read the README against the source at 342287e. These are the places they do no
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# monodromy
+# Telling whether a function can be reversed, without its derivative
+
+*monodromy*
 
 > Testing whether a map can be run backwards by comparing pairs of points, instead of checking its Jacobian one point at a time.
 
@@ -4266,7 +4288,7 @@ I read the README against the source at 342287e. These are the places they do no
 - Project site: https://blog.teerth.dev/monodromy/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "monodromy", 2026, https://teerth.blog/monodromy
+- Cite as: Teerth Sharma (teerth.blog), "Telling whether a function can be reversed, without its derivative", 2026, https://teerth.blog/monodromy
 - Languages: Python
 - Question: Can a map be caught folding two points together without trusting its Jacobian?
 - Headline result: 8/8 maps classified correctly on the repo's benchmark (ρ path, Jacobian passed in) (control: determinant test on the same eight maps: 6/8)
@@ -4531,7 +4553,9 @@ Some sources disagree with each other, and I cite both values rather than pick o
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# faraday
+# A counting law linking a cavity's electric and magnetic modes
+
+*faraday*
 
 > Counts where a cavity mode's electric nodal lines meet the wall and where its magnetic field curls inside, and tests the exact law between the two.
 
@@ -4540,7 +4564,7 @@ Some sources disagree with each other, and I cite both values rather than pick o
 - Repository: https://github.com/teerthsharma/faraday
 - Updated: 2026-10-13
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "faraday", 2026, https://teerth.blog/faraday
+- Cite as: Teerth Sharma (teerth.blog), "A counting law linking a cavity's electric and magnetic modes", 2026, https://teerth.blog/faraday
 - Languages: Python
 - Question: Does the topology of a cavity mode's magnetic field inside the cavity follow from where the electric field's nodal lines meet the wall?
 - Headline result: 132 of 132 TM modes of 11 cavities obey Q = χ(D) + N_wall/2, from a rectangle to a disk with two holes (control: a distractor term in the least-squares fit gets weight 0.0000; on a 15 × 15 grid the same check fails on 25 of 320 signature entries)
@@ -4783,7 +4807,9 @@ Related essays on this site:
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Electromagnetic-Field-Data-Simulator
+# Turn sampled electric and magnetic fields into a graph you can drag
+
+*Electromagnetic-Field-Data-Simulator*
 
 > A Rust, Python and TypeScript toolkit that builds the Faraday tensor from sampled E and B fields and summarises the energy map as a graph.
 
@@ -4793,7 +4819,7 @@ Related essays on this site:
 - Project site: https://blog.teerth.dev/em-field-simulator/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Electromagnetic-Field-Data-Simulator", 2026, https://teerth.blog/em-field-simulator
+- Cite as: Teerth Sharma (teerth.blog), "Turn sampled electric and magnetic fields into a graph you can drag", 2026, https://teerth.blog/em-field-simulator
 - Languages: Rust, Python, TypeScript
 - Question: What do the Faraday tensor, its two invariants and a thresholded energy graph show about a sampled 2D field, computed fast enough to drag?
 - Headline result: 3 implementations of one Faraday-tensor pipeline: Rust, Python, TypeScript (control: no test compares the three; each test file imports only its own module)
@@ -5025,7 +5051,9 @@ Related essays on this site: [faraday](/faraday), which this project came out of
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Asmodeus
+# Learning a changing stream without relearning laws that return
+
+*Asmodeus*
 
 > A stream whose law changes, then comes back. Asmodeus keeps one small table per law and a softmax over them, so a returning law is recalled, not re-learned.
 
@@ -5034,7 +5062,7 @@ Related essays on this site: [faraday](/faraday), which this project came out of
 - Repository: https://github.com/teerthsharma/Asmodeus
 - Updated: 2026-10-19
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Asmodeus", 2026, https://teerth.blog/asmodeus
+- Cite as: Teerth Sharma (teerth.blog), "Learning a changing stream without relearning laws that return", 2026, https://teerth.blog/asmodeus
 - Languages: Python, Lean 4
 - Question: When a stream switches between a few laws and each law returns, does keeping one small model per law, and a softmax that routes between them, beat learners that adapt or read the regime from context?
 - Headline result: 11× lower regret against an oracle than the best owned online learner, on streams of 4 recurring laws, 10 fresh seeds: 0.0277 vs 0.3056 nats per token (control: the best owned learner (BOCPD), tuned on separate seeds; when no law ever returns, the era bank costs 1.18× BOCPD (0.0186 vs 0.0159))

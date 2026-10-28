@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# monodromy
+# Telling whether a function can be reversed, without its derivative
+
+*monodromy*
 
 > Testing whether a map can be run backwards by comparing pairs of points, instead of checking its Jacobian one point at a time.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/monodromy/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "monodromy", 2026, https://teerth.blog/monodromy
+- Cite as: Teerth Sharma (teerth.blog), "Telling whether a function can be reversed, without its derivative", 2026, https://teerth.blog/monodromy
 - Languages: Python
 - Question: Can a map be caught folding two points together without trusting its Jacobian?
 - Headline result: 8/8 maps classified correctly on the repo's benchmark (ρ path, Jacobian passed in) (control: determinant test on the same eight maps: 6/8)

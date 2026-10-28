@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/YourOwnTopK.fig.Db2DYf7L.js","_astro/_math.BMtZW390.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`separatrix/your-own-topk`,()=>e(()=>import(`./YourOwnTopK.fig.Db2DYf7L.js`),__vite__mapDeps([0,1])));

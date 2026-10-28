@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# topological-ml-toolkit
+# Using the shape of data as ML features, with a certificate
+
+*topological-ml-toolkit*
 
 > Persistent homology as ordinary ML features, with a certificate that decides when one barcode can stand in for a whole moving point cloud.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/topological-ml-toolkit/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "topological-ml-toolkit", 2026, https://teerth.blog/topological-ml-toolkit
+- Cite as: Teerth Sharma (teerth.blog), "Using the shape of data as ML features, with a certificate", 2026, https://teerth.blog/topological-ml-toolkit
 - Languages: Rust, Python, C++, x86-64 assembly, CUDA
 - Question: When a point cloud moves, when can one persistence computation stand in for every frame?
 - Headline result: 1 of 3 persistence evaluations for a certified three-frame trajectory; every diagram equals dense recomputation within rtol 1e-10 (control: dense per-frame recomputation: 3 of 3)

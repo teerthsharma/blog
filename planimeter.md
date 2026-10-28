@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# planimeter
+# Counting the rooms in a floor plan, with proof or a refusal
+
+*planimeter*
 
 > An agent edits a drawing and reports the room count. planimeter reads the file and returns the count, or the coordinate where the file cannot say.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/planimeter
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "planimeter", 2026, https://teerth.blog/planimeter
+- Cite as: Teerth Sharma (teerth.blog), "Counting the rooms in a floor plan, with proof or a refusal", 2026, https://teerth.blog/planimeter
 - Languages: Python
 - Question: Did the number of enclosed rooms in this drawing change, and if the file cannot settle it, where exactly is the doubt?
 - Headline result: 0 wrong integers on 528 constructed drawings: 495 exact, 33 refused (control: same 528 files: round-6 snap 350 wrong, shapely polygonize_full 336 wrong)

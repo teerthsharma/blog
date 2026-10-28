@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# tangle
+# Proving two cables are linked from a photograph
+
+*tangle*
 
 > From a photo of two cables: an integer linking-number certificate, or a refusal that names the crossing to re-shoot.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/tangle
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "tangle", 2026, https://teerth.blog/tangle
+- Cite as: Teerth Sharma (teerth.blog), "Proving two cables are linked from a photograph", 2026, https://teerth.blog/tangle
 - Languages: Python
 - Question: Can two cables in one picture be proved impossible to pull apart, with a refusal instead of a guess when the picture is not good enough?
 - Headline result: 0 wrong certificates over 2,000 closed-braid diagrams and 80 rendered scenes; 0 of 247 real photographs certified (control: abstain-on-any-unknown also 0 wrong; a coin flip on the same unknowns: 755 and 47 wrong)

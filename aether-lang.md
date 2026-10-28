@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Aether-Lang
+# A loop that stops when the shape of your data stops changing
+
+*Aether-Lang*
 
 > A research language where persistent homology is a primitive, so a loop can stop when the Betti numbers of its data stop changing.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/aether-lang/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Aether-Lang", 2026, https://teerth.blog/aether-lang
+- Cite as: Teerth Sharma (teerth.blog), "A loop that stops when the shape of your data stops changing", 2026, https://teerth.blog/aether-lang
 - Languages: Rust, Lean 4, Aether
 - Question: Can a loop end on a change in the shape of its data instead of on a small float?
 - Headline result: [1, 1, 0] Betti vector at which the README tour's seal loop stops, at radius 1: one piece, one loop (control: printed by the tour program; not compared against a tuned scalar stopping rule)

@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Electromagnetic-Field-Data-Simulator
+# Turn sampled electric and magnetic fields into a graph you can drag
+
+*Electromagnetic-Field-Data-Simulator*
 
 > A Rust, Python and TypeScript toolkit that builds the Faraday tensor from sampled E and B fields and summarises the energy map as a graph.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/em-field-simulator/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Electromagnetic-Field-Data-Simulator", 2026, https://teerth.blog/em-field-simulator
+- Cite as: Teerth Sharma (teerth.blog), "Turn sampled electric and magnetic fields into a graph you can drag", 2026, https://teerth.blog/em-field-simulator
 - Languages: Rust, Python, TypeScript
 - Question: What do the Faraday tensor, its two invariants and a thresholded energy graph show about a sampled 2D field, computed fast enough to drag?
 - Headline result: 3 implementations of one Faraday-tensor pipeline: Rust, Python, TypeScript (control: no test compares the three; each test file imports only its own module)

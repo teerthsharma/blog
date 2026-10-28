@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# separatrix
+# Is your top-k result real, or just floating-point rounding?
+
+*separatrix*
 
 > Tells you whether a top-k list came from your data or from the computer's rounding, and refuses, naming the pair, when it cannot tell.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/separatrix
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "separatrix", 2026, https://teerth.blog/separatrix
+- Cite as: Teerth Sharma (teerth.blog), "Is your top-k result real, or just floating-point rounding?", 2026, https://teerth.blog/separatrix
 - Languages: Python
 - Question: Did my data choose this top-k set, or did floating-point rounding choose it?
 - Headline result: 0 of 1,116 certified top-10 sets moved across nine numerically distinct engines (control: all 8 sets that did move had been refused first (one draw, seed 11))

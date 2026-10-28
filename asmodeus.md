@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# Asmodeus
+# Learning a changing stream without relearning laws that return
+
+*Asmodeus*
 
 > A stream whose law changes, then comes back. Asmodeus keeps one small table per law and a softmax over them, so a returning law is recalled, not re-learned.
 
@@ -11,7 +13,7 @@
 - Repository: https://github.com/teerthsharma/Asmodeus
 - Updated: 2026-10-19
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "Asmodeus", 2026, https://teerth.blog/asmodeus
+- Cite as: Teerth Sharma (teerth.blog), "Learning a changing stream without relearning laws that return", 2026, https://teerth.blog/asmodeus
 - Languages: Python, Lean 4
 - Question: When a stream switches between a few laws and each law returns, does keeping one small model per law, and a softmax that routes between them, beat learners that adapt or read the regime from context?
 - Headline result: 11× lower regret against an oracle than the best owned online learner, on streams of 4 recurring laws, 10 fresh seeds: 0.0277 vs 0.3056 nats per token (control: the best owned learner (BOCPD), tuned on separate seeds; when no law ever returns, the era bank costs 1.18× BOCPD (0.0186 vs 0.0159))

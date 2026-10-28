@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/StandardMapPosterior.fig.D2IRPSG2.js","_astro/three.module.CbYOIaMy.js","_astro/rolldown-runtime.DK3Fl9T5.js","_astro/figure-kit.CXnRuxQL.js","_astro/_ui.sOWaytnE.js"])))=>i.map(i=>d[i]);
-import{t as e}from"./preload-helper.DHhhL8Zf.js";import{t}from"./figure-runtime.BxzW2w9b.js";t(`resolvent/standard-map-posterior`,()=>e(()=>import(`./StandardMapPosterior.fig.D2IRPSG2.js`),__vite__mapDeps([0,1,2,3,4])));

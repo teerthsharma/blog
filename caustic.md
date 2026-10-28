@@ -2,7 +2,9 @@
 >
 > Essays and figures are licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Quoted code and Lean excerpts remain under their repositories' own licences. How to cite: https://teerth.blog/attribution
 
-# caustic
+# Detecting LLM hallucinations without labels
+
+*caustic*
 
 > A model can hold a fact and still fail to reach it. When it fails, distinct entities collapse onto one answer, and the collapse proves errors.
 
@@ -12,7 +14,7 @@
 - Project site: https://blog.teerth.dev/caustic/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- Cite as: Teerth Sharma (teerth.blog), "caustic", 2026, https://teerth.blog/caustic
+- Cite as: Teerth Sharma (teerth.blog), "Detecting LLM hallucinations without labels", 2026, https://teerth.blog/caustic
 - Languages: Python
 - Question: How many of a model's answers can be proved wrong without knowing a single correct answer?
 - Headline result: 0.950 certified error floor on 20 country–capital prompts behind 128 tokens of " the", computed from the model's answers alone (control: 128 tokens of coherent prose: floor 0.000; measured error 0.000, against 1.000 behind the repeated token)
