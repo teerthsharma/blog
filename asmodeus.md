@@ -324,3 +324,4 @@ Related essays on this blog:
 
 - [resolvent](/resolvent): one parent. A planner that ranks candidate futures as a set, not one at a time.
 - [caustic](/caustic): the other parent. Counting answers that collide to prove errors without an answer key.
+- [Alcyone-W](/alcyone): came out of this and resolvent. A JEPA that predicts the watershed of a hidden window of a particle collision. Model: https://huggingface.co/teerthsharma/Alcyone-W
