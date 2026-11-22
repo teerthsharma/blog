@@ -11,7 +11,7 @@
 - Author: Teerth Sharma (https://teerth.dev)
 - URL: https://teerth.blog/topological-ml-toolkit
 - Repository: https://github.com/teerthsharma/topological-ml-toolkit
-- Project site: https://blog.teerth.dev/topological-ml-toolkit/
+- Project site: https://teerth.dev/topological-ml-toolkit/
 - Updated: 2026-10-11
 - Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - Cite as: Teerth Sharma (teerth.blog), "Using the shape of data as ML features, with a certificate", 2026, https://teerth.blog/topological-ml-toolkit
